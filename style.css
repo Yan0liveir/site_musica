@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+header{
+    background-image: linear-gradient(to left, #1A184D, #2C2980);
+    width: 100%;
+    padding-bottom:5px;
+    position: fixed;
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.521);
+    border-radius: 0px 0px 10px 10px;
+}
+header>h1{
+    padding: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.502);
+}
+header>h1::before{
+    content: url(imagens/icone.png);
+    padding: 5px;
+}
+header>nav{
+    float: right;
+    padding-right:15px;
+}
+nav>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #275950;
+    padding: 10px;
+    color: white;
+}
+nav>a:hover{
+    background-color:  #1d1c3a;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+section#home{
+    display: flex;
+    background-color: #030133;
+    height: 100vh;
+}
+section#home p{
+margin: 10px;
+width: 280px;
+margin-top: 25px;
+margin-left: 205px;
+font-size: large;
+}
+div#left img{
+    width: 25vw;
+    height: 50vh;
+    margin-top: 140px;
+    margin-left: 205px; 
+    border-radius: 215px;
+    box-shadow: 2px 2px 7px 0px black;
+    
+}
+div#right img{
+    width: 25vw;
+    height: 50vh;
+    margin-top: 225px;
+    margin-left: 275px; 
+    border-radius: 215px;
+    
+}
+section#generos{
+    background-color: #2C2980;
+    height: 100vh; 
+}
+section#generos h2{
+    padding: 50px;
+    width: 290px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.502);
+}
+img#spotify{
+    float: right;
+    width: 9vw;
+    height: 17vh; 
+    margin: 33px;
+    
+}
+img._principal{
+    display:block;
+    width: 16vw;
+    height: 10vh; 
+    padding-top: 10px;
+    padding: 10px;
+    border-radius: 80px;
+    
+}
+section#top-artista{
+  height: 100vh;
+  background-color:#1A184D ;
+}
+section#top-artista h2{
+    text-transform: uppercase;
+    padding: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.502);
+}
+section#top-artista ol{
+    columns: 2;
+    padding-left: 150px;
+}
+section#top-artista ol>li{
+    padding:54px;
+}
+li>img.artista{
+    width: 9vw;
+    height: 17vh;
+    border-radius: 85px; 
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.521);
+}
+section#top-albuns{
+    background-color:#2C2980; 
+    height: 100vh; 
+}
+section#top-albuns h2{
+    text-transform: uppercase;
+    padding: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.502);
+}
+section#top-albuns img{
+    width: 9vw;
+    height: 17vh;
+    border-radius: 85px;
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.521);
+}
+section#top-albuns ul{
+    columns: 2;
+    padding-left: 150px;
+}
+section#top-albuns ul>li{
+    padding:54px;
+    
+}
+section#top-musicas{
+    background-color:#1A184D; 
+    height: 150vh; 
+}
+section#top-musicas h2{
+    text-transform: uppercase;
+    padding: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.502);
+}
+section#top-musicas img{
+    width: 9vw;
+    height: 17vh;
+    border-radius: 85px;
+}
+section#top-musicas ul{
+    columns: 2;
+    padding-left: 150px;
+}
+section#top-musicas ul>li{
+    padding:54px;
+    
+}
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
